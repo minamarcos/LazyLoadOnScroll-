@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>This is some lazy loading bro!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style type="text/css">
+    html,
+    body {
+      margin: 0;
+    }
+
+    img {
+      display: block;
+    }
+
+    img:not([src]) {
+      visibility: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <img data-original="https://res.cloudinary.com/another-ui-guy-llc/image/upload/v1487623426/1_viuaga.jpg" width="414"
+      height="736">
+  </div>
+  <div>
+    <img data-original="https://res.cloudinary.com/another-ui-guy-llc/image/upload/v1487623426/2_mfhd10.jpg" width="414"
+      height="736">
+  </div>
+  <div>
+    <img data-original="https://res.cloudinary.com/another-ui-guy-llc/image/upload/v1487623425/3_asuuw0.jpg" width="414"
+      height="736">
+  </div>
+  <div>
+    <img data-original="https://res.cloudinary.com/another-ui-guy-llc/image/upload/v1487623425/4_m4suke.jpg" width="414"
+      height="736">
+  </div>
+  <div>
+    <img data-original="https://res.cloudinary.com/another-ui-guy-llc/image/upload/v1487623425/5_vdqbmx.jpg" width="414"
+      height="736">
+  </div>
+  <div>
+    <img data-original="https://res.cloudinary.com/another-ui-guy-llc/image/upload/v1487623429/6_ulxm7l.jpg" width="414"
+      height="736">
+  </div>
+  <div>
+    <img data-original="https://res.cloudinary.com/another-ui-guy-llc/image/upload/v1487623429/7_wi0op7.jpg" width="414"
+      height="736">
+  </div>
+  <div>
+    <img data-original="https://res.cloudinary.com/another-ui-guy-llc/image/upload/v1487623427/8_ybcjqw.jpg" width="414"
+      height="736">
+  </div>
+  <div>
+    <img data-original="https://res.cloudinary.com/another-ui-guy-llc/image/upload/v1487623428/9_tga0is.jpg" width="414"
+      height="736">
+  </div>
+  <div>
+    <img data-original="https://res.cloudinary.com/another-ui-guy-llc/image/upload/v1487623427/10_na5pi4.jpg" width="414"
+      height="736">
+  </div>
+  <div>
+    <img data-original="https://res.cloudinary.com/another-ui-guy-llc/image/upload/v1487623429/11_zaewev.jpg" width="414"
+      height="736">
+  </div>
+  <div>
+    <img data-original="https://res.cloudinary.com/another-ui-guy-llc/image/upload/v1487623428/12_tpwl81.jpg" width="414"
+      height="736">
+  </div>
+  <div>
+    <img data-original="https://res.cloudinary.com/another-ui-guy-llc/image/upload/v1487623429/13_f14q2k.jpg" width="414"
+      height="736">
+  </div>
+  <div>
+    <img data-original="https://res.cloudinary.com/another-ui-guy-llc/image/upload/v1487623431/14_q0jj9j.jpg" width="414"
+      height="736">
+  </div>
+  <div>
+    <img data-original="https://res.cloudinary.com/another-ui-guy-llc/image/upload/v1487623428/15_g3pwey.jpg" width="414"
+      height="736">
+  </div>
+  <div>
+    <img data-original="https://res.cloudinary.com/another-ui-guy-llc/image/upload/v1487623431/16_gpbgmm.jpg" width="414"
+      height="736">
+  </div>
+  <div>
+    <img data-original="https://res.cloudinary.com/another-ui-guy-llc/image/upload/v1487623430/17_zvyngk.jpg" width="414"
+      height="736">
+  </div>
+  <div>
+    <img data-original="https://res.cloudinary.com/another-ui-guy-llc/image/upload/v1487623432/18_lrxuhq.jpg" width="414"
+      height="736">
+  </div>
+  <div>
+    <img data-original="https://res.cloudinary.com/another-ui-guy-llc/image/upload/v1487623433/19_eoabsv.jpg" width="414"
+      height="736">
+  </div>
+  <div>
+    <img data-original="https://res.cloudinary.com/another-ui-guy-llc/image/upload/v1487623431/20_o04cob.jpg" width="414"
+      height="736">
+  </div>
+
+  <script src="js/lazyload.min.js"></script>
+  <script>
+    var myLazyLoad = new LazyLoad({
+      threshold: 1472,
+    });
+
+    new LazyLoad();
+  </script>
+
+</body>
+
+</html>
